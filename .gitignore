@@ -1,0 +1,9 @@
+# --- Critical Exclusions ---
+# Ignore the FinBERT model files (Too large for GitHub)
+models/
+
+# --- System & Cache Files ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
