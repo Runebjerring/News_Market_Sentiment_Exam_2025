@@ -1,7 +1,13 @@
-# Algo-Trading with FinBERT: Crisis Alpha & Sentiment Analysis
+# The Intelligence Premium: Evaluating Crisis Alpha in Transformer versus Lexical Sentiment Models
 
 ## Project Objective
-This project compares a state-of-the-art Natural Language Processing (NLP) model (FinBERT) against a traditional Lexical approach (Loughran-McDonald Dictionary) to test the hypothesis of "Crisis Alpha"---the ability of a sentiment strategy to act as a tail-risk hedge during major market crashes (2008 & 2020).
+This project compares a state-of-the-art Natural Language Processing (NLP) model (FinBERT) against a traditional Lexical approach (Loughran-McDonald Dictionary) to test whether the computational cost of the Transformer architecture yields an economic benefit. 
+
+We evaluate: 
+1.	Predictive Causality: Does sentiment Granger-cause returns, or is it merely reactive?
+2.	Crisis Alpha: Can the models identify systematic risk during the 2008 Global Financial Crisis and the 2020 COVID-19 Pandemic?
+3.	Benchmarking: Is the latency trade-off (Inference Speed vs. Sharpe Ratio) justifiable for a daily-timeframe strategy?
+
 
 ## Repository Structure
 The repository is self-contained with the exception of the FinBERT model weights.
